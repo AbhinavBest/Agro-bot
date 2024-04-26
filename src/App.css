@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  box-sizing: border-box;
+}
+
+.App{
+  height: 100vh;
+  background:  linear-gradient(white, #11c8338f);
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+  font-size: 1.5rem;
+}
+
+.title-img{
+  position: absolute;
+}
+
+/* .cogwheel{
+  top: 9px;
+  right: 15%;
+  width: 3rem;
+}
+
+.bell{
+  top: 9px;
+  right: 10%;
+  width: 3rem;
+}
+
+.kebab{
+  top: 10px;
+  right: 5%;
+  width: 2.5rem;
+} */
+
+.content{
+  display: flex;
+}
+
+.cam-container{
+  height: 28rem;
+  width: 60rem;
+  background-color: black;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.ml-container{
+  height: 12rem;
+  width: 60rem;
+  background-color: white;
+  margin: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ml-col-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ml-controls{
+  margin: 10px;
+  background-color: #E6DEDE;
+  border-radius: 20px;
+  padding: 1rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.ml-state-container{
+  font-size: 2rem;
+}
+
+.ml-state-container h1{
+  font-weight: 400;
+}
+
+.graph-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.readings-container{
+  height: 26rem;
+  background-color: white;
+  width: 30rem;
+  border-radius: 20px;
+}
+
+.values-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reading{
+  font-size: 0.6rem;
+  padding: 10px;
+  border-radius: 30px;
+  height: 100%;
+  margin:3px;
+  background-color: aquamarine;
+}
+
+.reading h1{
+  padding: 5px;
+  font-weight: 400;
+}
+
+
+.controls-container{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  height: 14.5rem;
+  width: 30rem;
+  border-radius: 20px;
+}
+
+.control-btn{
+  background-color: #E6DEDE;
+  margin: 10px;
+  padding: 1rem;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
